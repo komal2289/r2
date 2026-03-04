@@ -1,28 +1,12 @@
-print("Hiii")
+print("This is a Java Program to print a message")
 
 package JAVAPgms
 
-class Mobile
-{
-  void call()
-  {
-    System.out.println("Making a call");
-  }
-}
-class smartphone extends Mobile
-{
-  void browseinternet()
-  {
-    System.out.println("Browsing the internet");
-  }
-}
-public class SingleInheritance
+public class Message
 {
   public static void main(String[] args)
   {
-    smartphone s1=new smartphone();
-    s1.call();
-    s1.browseinternet();
+      System.out.println("Hii!!!!!");
   }
 }
 
