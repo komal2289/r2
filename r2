@@ -10,6 +10,7 @@ public class Helloworld
       System.out.println("HElloWorld");
       System.out.print();
       System.out,println("This program is about to print a message");
+      System.out.println("I hope it will help you");
   }
 }
 
